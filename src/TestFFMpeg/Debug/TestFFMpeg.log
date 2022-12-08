@@ -1,0 +1,6 @@
+﻿D:\vs2022\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(503,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  watermark.cpp
+D:\project\zhangkaizhe\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\project\zhangkaizhe\src\TestFFMpeg\watermark.cpp(165,22): warning C4018: “<”: 有符号/无符号不匹配
+D:\project\zhangkaizhe\src\TestFFMpeg\watermark.cpp(167,23): warning C4018: “<”: 有符号/无符号不匹配
+  TestFFMpeg.vcxproj -> D:\project\zhangkaizhe\bin\win32\TestFFMpeg.exe

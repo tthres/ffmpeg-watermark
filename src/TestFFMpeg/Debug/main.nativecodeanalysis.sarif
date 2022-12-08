@@ -1,0 +1,347 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31935.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/src/testffmpeg/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "a8177b65770c501ffdf99f52393855d202d9a91e51b7323392275ad996335b56"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavcodec/avcodec.h"
+          },
+          "hashes": {
+            "sha-256": "55d660bb6439bcd6ddbe73de5bcf61dc5525e64ecac94aeb43d65cb7e299f9ea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavutil/samplefmt.h"
+          },
+          "hashes": {
+            "sha-256": "e92c47e4aedb439ccb630e46e80ef884c848ca2b7baeb64b1050802312751e0d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavutil/avutil.h"
+          },
+          "hashes": {
+            "sha-256": "5d868e4d3340fccd511662b67eb4e28febd23e4eb28466d57a7e277228d53baf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavutil/common.h"
+          },
+          "hashes": {
+            "sha-256": "f19e0ab33a14ce1a7753fce406bfc514ae8a1bf14c408e2f186e37545099d03d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavutil/attributes.h"
+          },
+          "hashes": {
+            "sha-256": "d695c5661adf0b5018bd9a7e59f7f1b839318beed656b0930f10cee7360a509a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavutil/macros.h"
+          },
+          "hashes": {
+            "sha-256": "7fd8514cbe4b6ef025b0f5cc3b752e2c3940e22f4945cf6e6372653b6e3d2bca"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavutil/version.h"
+          },
+          "hashes": {
+            "sha-256": "ea4535da051ba24517578e7504849417e9061e640c22e80cea19d560c6d6a7b6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavutil/avconfig.h"
+          },
+          "hashes": {
+            "sha-256": "975611ad5eba15212d9e1d5fca9d4fdf0daec6d2269b2fcab8e29af8667164bc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavutil/mem.h"
+          },
+          "hashes": {
+            "sha-256": "d113db71707d0c7750f642ce5f1d6500b46ccb22d63e179597a0125e2ad77a66"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavutil/error.h"
+          },
+          "hashes": {
+            "sha-256": "cd530a990c8949e867f05e08e4de07c2df170d435707a73679fe5fe53bb3389e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavutil/rational.h"
+          },
+          "hashes": {
+            "sha-256": "8c4ce57974b97c4160d7552c14b2c23fcc6f4c1321281c1e8e33beb6e2276276"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavutil/mathematics.h"
+          },
+          "hashes": {
+            "sha-256": "a4cd34f7c19d82c4e58349f0c4987f5b3829dad15755f4eca166b492506cd37c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavutil/intfloat.h"
+          },
+          "hashes": {
+            "sha-256": "3a29e4eebc8c269cfd867b96de91d8231773d392c12a8820e46eaba96d2b4ca1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavutil/log.h"
+          },
+          "hashes": {
+            "sha-256": "238d18ca7c46c84b0977bc67283c9ba2b034f8f6f20c2110fcd1e0a5c1d97d08"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavutil/pixfmt.h"
+          },
+          "hashes": {
+            "sha-256": "077705aa6c617f215e4a4b0fb2f75b37a477457da80d6915484920747c935e70"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavutil/buffer.h"
+          },
+          "hashes": {
+            "sha-256": "f3cae86c0fea1fa0e037fecebd9acd998bedcb19bead1eb7df6da64d4b2aa689"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavutil/cpu.h"
+          },
+          "hashes": {
+            "sha-256": "568994c2574ad6a8a9322eca98034c8a64cf3e3d0f1ed94b77d792060eea01db"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavutil/channel_layout.h"
+          },
+          "hashes": {
+            "sha-256": "dbd46ceb8bf6a74f41fb3ea21b064c808e6f4572467c99310111915d1b34b570"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavutil/dict.h"
+          },
+          "hashes": {
+            "sha-256": "b8f3d9d4f4e59c77fede23eef817e5821608151f86cd8dfffb4b81c877d973c8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavutil/frame.h"
+          },
+          "hashes": {
+            "sha-256": "3129d5b3d8e5531739ac57010ca7f695693447e31757b1ece6790b2981b9ca3f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavutil/hwcontext.h"
+          },
+          "hashes": {
+            "sha-256": "a1c8aeddd7bfb3381f6fc417ce4e1d4419f36f876fcdf25233daf60573d54210"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavcodec/version.h"
+          },
+          "hashes": {
+            "sha-256": "8ff8a9d9ed962285fd49a5b4fbfac7144378fd07a85519b6cfa066c8129b1115"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavdevice/avdevice.h"
+          },
+          "hashes": {
+            "sha-256": "da68bd84322575ba8cf2800a0c26e031e74ede44c07922fa3cb7ec745a33079c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavdevice/version.h"
+          },
+          "hashes": {
+            "sha-256": "f733a33d92aa1028a33cd4ee0c9e723637cff6b27eb56962d183d93877a82955"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavutil/opt.h"
+          },
+          "hashes": {
+            "sha-256": "ace5481fda4cfda90a61a1c8e4f27e59c1fa970c77ecb1824a0d8abc2edc0165"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavformat/avformat.h"
+          },
+          "hashes": {
+            "sha-256": "e2f77f4f864d9247267df12c7ccfe92910899939281486a086fcc47e9b89e04b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavformat/avio.h"
+          },
+          "hashes": {
+            "sha-256": "60ec540459896c12e6512e573fa1a033533d9c7fd3af59dcd08ab76b5c79c6de"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavformat/version.h"
+          },
+          "hashes": {
+            "sha-256": "03532f2fecfc9fa0169e589c540c909b913e765746c1c4c284c52fcd74c1ad5d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavfilter/avfilter.h"
+          },
+          "hashes": {
+            "sha-256": "9d4b4f84edbe814312c2e8a7a647bbf33d159814fbf0ca100cca280e2375682f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavfilter/version.h"
+          },
+          "hashes": {
+            "sha-256": "d76f60c6e02ed6dbb20745bc4b2c63a3a870b61f383c5dce46aa44e89982fe8b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libswresample/swresample.h"
+          },
+          "hashes": {
+            "sha-256": "50e101a21eb6854cdcda08a39afb7f97f5780445753fd8e7260a08e0ef96b138"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libswresample/version.h"
+          },
+          "hashes": {
+            "sha-256": "ebd47db0734d104e573352b4d7f902e05154cb6ed421a2f9a85f4c3a36082f86"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libswscale/swscale.h"
+          },
+          "hashes": {
+            "sha-256": "10edc3471a22d9395d1f496689436b516572ad373fa13c24511e4a8019aa2188"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libswscale/version.h"
+          },
+          "hashes": {
+            "sha-256": "fe2bf2cc04cc01ba43371c1c59a2390383fb776584dde56c7ad17b9286e7a283"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavutil/imgutils.h"
+          },
+          "hashes": {
+            "sha-256": "0d2ddf88e72b4f6f2aa880399faf495e3789f64a3d1e81273d73fd146e5118aa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavutil/pixdesc.h"
+          },
+          "hashes": {
+            "sha-256": "0fe26c851b4c92775a77dd7092c091ce31aa679c7646f064854cdd8a74a59977"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavutil/time.h"
+          },
+          "hashes": {
+            "sha-256": "40e11fa242e0585996753affb054443e78be25919b7c3063042d0aaff1656760"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavfilter/buffersink.h"
+          },
+          "hashes": {
+            "sha-256": "c130bb6ef43017f6675aeaba52a4a54f46012708dae901b7d7e8ba8dd31f76bc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/project/zhangkaizhe/include/libavfilter/buffersrc.h"
+          },
+          "hashes": {
+            "sha-256": "533161432a3414ee359e8740fec73c9730be92d9302cabc6266260c0cedc1c20"
+          }
+        }
+      ]
+    }
+  ]
+}
